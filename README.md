@@ -73,6 +73,7 @@ habit-tracker-python/
 │   ├── habit-records.png
 │   └── heatmap.png
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
