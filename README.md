@@ -143,7 +143,7 @@ The current program uses plain-text streak labels instead of those emojis. If th
 habit-tracker-python/
 ├── habit_tracker.py
 ├── README.md
-├── building-habit-tracker-python-tkinter-pandas.md
+├── article.md
 ├── requirements.txt
 ├── .gitignore
 ├── data/
