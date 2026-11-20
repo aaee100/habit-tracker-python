@@ -182,8 +182,8 @@ def show_heatmap():
         dates = pd.date_range(daily.index.min(), daily.index.max(), freq="D")
         daily = daily.reindex(dates)
         data = daily.to_frame()
-        data["WeekStart"] = data.index - pd.to_timedelta(data.index.weekday, unit="D")
-        data["Weekday"] = data.index.weekday
+        data["WeekStart"] = data.index - pd.to_timedelta(data.index.day_of_week, unit="D")
+        data["Weekday"] = data.index.day_of_week
         pivot = data.pivot(index="WeekStart", columns="Weekday", values="Percentage")
         pivot = pivot.reindex(columns=[0, 1, 2, 3, 4, 5, 6]).sort_index(ascending=False)
 
