@@ -172,4 +172,4 @@ The application creates the `data/` directory and CSV file automatically. Avoid 
 
 For a more detailed explanation of the development process, calculations, and implementation, see:
 
-[Building a Habit Tracker with Python, Tkinter, and Pandas](building-habit-tracker-python-tkinter-pandas.md)
+[Building a Habit Tracker with Python, Tkinter, and Pandas](article.md)
